@@ -1,0 +1,70 @@
+body {
+  color: black;
+  background-color:whitesmoke;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(lab.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  min-height: 1000px;
+  font-family: Georgia sans-serif;
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Style the header */
+.header {
+    background-color: lightyellow;
+  padding: 30px;
+  text-align: center;
+  font-size: 150%;
+  color: black;
+  border-radius: 10px;
+  margin:auto;
+  width: 45%;
+  height: 50%;
+  margin-top: 60px;
+  position: relative;
+  font-family: 'Charm', cursive;
+  
+}
+
+
+
+
+
+/* Middle column */
+.column.middle {
+  width: 65%;
+  background-color:  lightyellow;
+   border-radius: 10px;
+  margin:auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  position:relative;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+

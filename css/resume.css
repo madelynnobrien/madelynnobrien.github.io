@@ -1,0 +1,148 @@
+/* to align the resume sections and keep them close to one another */
+        * { margin: 0; padding: 0; }
+        
+        
+        body { 
+        font: 1vw;
+        line-height: 24px; 
+        background-color: lightyellow;
+        font-family: Georgia sans-serif;
+        width:auto;
+        margin-top: 80px;
+}
+        
+        
+/* aligns resume titles with their "definitions" and paragraphs */
+
+        .clear { clear: both; 
+}
+
+
+/* image design */
+
+img {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transform: rotate(10deg);
+    padding: 11px;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+ #pic { 
+        float: right; 
+        margin: -30px 0 0 0;
+
+}
+
+
+/* design of page/ resizing */
+        .page-wrap { 
+        width: 800px; 
+        margin: 40px auto 60px; }
+        
+        
+        
+    /* main header design */    
+        h1 { 
+        margin: 0 0 16px 0; 
+        padding: 0 0 16px 0; 
+        font-size: 3vw; 
+        font-weight: bold; 
+        letter-spacing: 2px; 
+        border-bottom: 1px solid #999; 
+        }
+        
+        
+
+
+/* subheading design */
+        h2 { 
+        font-size: 1.5vw; 
+        margin: 0 0 6px 0; 
+        position: relative;
+        font-family: Georgia sans-serif;
+}
+        
+/* using span so the subheadings can be inline with the paragraphs and "definitions", h2 styling */    
+        h2 span { 
+        position: absolute; 
+        bottom: 0; 
+        right: 0; 
+        font-style: italic; 
+        font-family: Georgia, sans-serif;
+        font-size: 1vw; 
+        color: #999; 
+        font-weight: normal; 
+        }
+        
+       
+
+   /* paragraph styling */    
+        p { 
+        margin: 0 0 16px 0; }
+        
+        
+      /* email/linkedin as a link styling */  
+        a { 
+        color: #999; 
+        text-decoration: none; 
+        border-bottom: 1px dotted #999;
+        }
+        
+        
+        a:hover { 
+        border-bottom-style: solid; 
+        color: black; 
+        }
+        
+        
+    /* list styling */
+        ul { 
+        margin: 0 0 32px 17px; 
+        }
+        
+        
+        
+        
+    /* left side terms styling */ 
+        dt { 
+        font-style: italic;
+        font-weight: bold; 
+        font-size: 1.5vw; 
+        text-align: right; 
+        padding: 0 26px 0 0; 
+        width: 150px; 
+        float: left; 
+        height: 100px; 
+        border-right: 1px solid #999; 
+        }
+        
+        
+      /* right side terms styling */  
+        dd { 
+        width: 600px; 
+        float: right; 
+        font-size: 1vw;
+        }
+        
+        
+        
+        dd.clear { 
+        float: none; 
+        margin: 0; 
+        height: 15px; 
+        }
+
+.vcard {
+    font-size: 1.5vw;
+}
+
+
+
+
+
